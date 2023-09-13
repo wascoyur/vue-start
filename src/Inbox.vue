@@ -21,18 +21,23 @@
 </script>
 
 <template>
- <div class="card">
-  <h1>Input</h1>
-  <input
-   v-model="newItem"
-   type="text"
-   value="newItem"
-   @keyup.enter="addItem($data.newItem)"
-  >
-  <pre v-for="item in $data.array" :key="item" class="item">{{ item }}</pre>
-  <button @click="addItem($data.newItem)">
-   add item
-  </button>
+ <div class="wrapper">
+  <div v-if="array.length>4" class="jumbo">
+   Nice work! You are wine!
+  </div>
+  <div v-if="array.length < 5" class="card">
+   <h1>Input</h1>
+   <input
+    v-model="newItem"
+    type="text"
+    value="newItem"
+    @keyup.enter="addItem($data.newItem)"
+   >
+   <pre v-for="item in $data.array" :key="item" class="item">{{ item }}</pre>
+   <button @click="addItem($data.newItem)">
+    add item
+   </button>
+  </div>
  </div>
 </template>
 
