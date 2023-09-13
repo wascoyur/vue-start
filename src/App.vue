@@ -5,12 +5,13 @@
   name: "App",
   components: { Counter },
  };
+
 </script>
 
 <template>
  <div>
-  child
-  <Counter name="some" />
+  <h1>App</h1>
+  <Counter name_count="some" switch />
  </div>
 </template>
 
