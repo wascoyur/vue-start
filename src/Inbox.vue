@@ -27,7 +27,7 @@
    v-model="newItem"
    type="text"
    value="newItem"
-   @keyup.enter="addItem(this)"
+   @keyup.enter="addItem($data.newItem)"
   >
   <pre v-for="item in $data.array" :key="item" class="item">{{ item }}</pre>
   <button @click="addItem($data.newItem)">
