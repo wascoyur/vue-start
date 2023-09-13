@@ -4,7 +4,8 @@
   props: {
    name_count: { default: "", type: String },
    switch: { type: Boolean, default: false },
-  },data:function() {
+  },
+  data:function() {
    return ["10 party clones", "45 prob clones", "7 partial  circles"];
   }
  };
@@ -12,7 +13,7 @@
 </script>
 
 <template>
- <div class="counter">
+ <div class="card">
   counter here
   {{ name_count }}
   <pre>Директива v-html: </pre>
@@ -27,7 +28,7 @@
 </template>
 
 <style scoped>
-.counter {
+.card {
   border: 1px solid beige;
   padding: 1rem;
 }
