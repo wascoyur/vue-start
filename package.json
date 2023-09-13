@@ -1,0 +1,46 @@
+{
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build:staging": "vue-cli-service build --mode staging",
+    "build:production": "vue-cli-service build --mode production",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@tinymce/tinymce-vue": "^3.2.0",
+    "axios": "^0.27.2",
+    "chart.js": "^3.9.1",
+    "core-js": "^3.8.3",
+    "element-ui": "^2.13.0",
+    "email-validator": "^2.0.4",
+    "feather-icons": "^4.26.0",
+    "lodash": "^4.17.21",
+    "normalize.css": "^8.0.1",
+    "sortablejs": "^1.15.0",
+    "vue": "^2.6.14",
+    "vue-async-computed": "^3.8.2",
+    "vue-chartjs": "^4.1.1",
+    "vue-feather": "^1.0.0",
+    "vue-router": "^3.1.6",
+    "vue-yandex-metrika": "^1.8.3",
+    "vuedraggable": "^2.24.3",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
+    "sass": "^1.52.1",
+    "sass-loader": "^13.0.0",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
